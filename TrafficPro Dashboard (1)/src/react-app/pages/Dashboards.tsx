@@ -46,10 +46,10 @@ export default function Dashboards() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <div className="inline-flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl mr-3">
-                <TrendingUp className="w-6 h-6 text-white" />
+              <div className="inline-flex items-center justify-center w-10 h-10 mr-3">
+                <img src="/logo.svg" alt="Pant Marketing" className="w-full h-full" />
               </div>
-              <h1 className="text-2xl font-bold text-slate-800">TrafficPro</h1>
+              <h1 className="text-2xl font-bold text-slate-800">Pant Marketing</h1>
             </div>
             <button
               onClick={handleLogout}

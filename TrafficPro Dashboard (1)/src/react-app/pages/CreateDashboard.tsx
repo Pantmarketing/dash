@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
-import { ArrowLeft, TrendingUp, ExternalLink } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { BUSINESS_MODEL_LABELS } from '@/shared/types';
 
 export default function CreateDashboard() {
@@ -50,8 +50,8 @@ export default function CreateDashboard() {
             >
               <ArrowLeft className="w-5 h-5" />
             </button>
-            <div className="inline-flex items-center justify-center w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl mr-3">
-              <TrendingUp className="w-6 h-6 text-white" />
+            <div className="inline-flex items-center justify-center w-10 h-10 mr-3">
+              <img src="/logo.svg" alt="Pant Marketing" className="w-full h-full" />
             </div>
             <h1 className="text-2xl font-bold text-slate-800">Novo Dashboard</h1>
           </div>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Speech bubble background -->
+  <path d="M40 40 Q40 20 60 20 L160 20 Q180 20 180 40 L180 120 Q180 140 160 140 L80 140 L50 160 L70 140 Q50 140 50 120 L50 60 Q50 40 60 40 Z" fill="#1e3a8a"/>
+  
+  <!-- Chef hat icon -->
+  <g transform="translate(100, 80)">
+    <!-- Hat base -->
+    <ellipse cx="0" cy="20" rx="35" ry="8" fill="#f59e0b"/>
+    <!-- Hat top -->
+    <path d="M-30 20 Q-30 -10 -15 -15 Q0 -20 15 -15 Q30 -10 30 20" fill="#f59e0b"/>
+    <!-- Hat lines -->
+    <line x1="-20" y1="-5" x2="-20" y2="15" stroke="#1e3a8a" stroke-width="3"/>
+    <line x1="-8" y1="-8" x2="-8" y2="18" stroke="#1e3a8a" stroke-width="3"/>
+    <line x1="4" y1="-8" x2="4" y2="18" stroke="#1e3a8a" stroke-width="3"/>
+    <line x1="16" y1="-5" x2="16" y2="15" stroke="#1e3a8a" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,10 +1,26 @@
-## TrafficPro Dashboard
+# Pant Marketing Dashboard
 
-This app was created using https://getmocha.com.
-Need help or want to join the community? Join our [Discord](https://discord.gg/shDEGBSe2d).
+Dashboard profissional para campanhas de tráfego pago.
 
-To run the devserver:
-```
+## Funcionalidades
+
+- Autenticação simples com senha
+- Criação e gerenciamento de dashboards
+- Múltiplos modelos de negócio suportados
+- Visualização de métricas em tempo real
+- Gráficos interativos com Recharts
+- Interface responsiva com Tailwind CSS
+
+## Desenvolvimento
+
+```bash
 npm install
 npm run dev
+```
+
+## Deploy
+
+```bash
+npm run build
+npm run check
 ```

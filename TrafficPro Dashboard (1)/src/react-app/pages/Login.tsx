@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { useAuth } from '@/react-app/hooks/useAuth';
-import { Lock, TrendingUp } from 'lucide-react';
+import { Lock } from 'lucide-react';
 
 export default function Login() {
   const [password, setPassword] = useState('');
@@ -30,10 +30,10 @@ export default function Login() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl mb-4">
-            <TrendingUp className="w-8 h-8 text-white" />
+          <div className="inline-flex items-center justify-center w-20 h-20 mb-4">
+            <img src="/logo.svg" alt="Pant Marketing" className="w-full h-full" />
           </div>
-          <h1 className="text-3xl font-bold text-slate-800 mb-2">TrafficPro</h1>
+          <h1 className="text-3xl font-bold text-slate-800 mb-2">Pant Marketing</h1>
           <p className="text-slate-600">Dashboard de Campanhas de Tráfego</p>
         </div>
 
